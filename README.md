@@ -20,8 +20,35 @@ This project is a machine learning application to classify iris flower species b
 ---
 
 ## 🔧 Installation
+```bash
 
-1. **Clone the repository**:
-   ```bash
+1. Clone the repository:
    git clone https://github.com/yghodak/iris-species-classifier.git
    cd iris-species-classifier
+   
+2. Install Dependencies:
+    pip install -r requirements.txt
+   
+3. Run the App:
+   streamlit run iris_app.py
+```
+---
+
+## 📁 Project Structure
+```bash
+Iris-Species-Classifier/
+├── main.py                 # Streamlit web app
+├── model.pkl               # Trained model
+├── requirements.txt        # Project dependencies
+└── README.md
+```
+---
+
+## 📦 Requirements
+```bash
+
+Python 3.x, streamlit, scikit-learn, pandas, joblib
+```
+## 🧑‍💻 Author
+### Built with 🌸 by Yash Ghodake
+
